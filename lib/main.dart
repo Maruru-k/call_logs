@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       initialRoute: '/',
-
+      debugShowCheckedModeBanner: false,
       // прописываем маршруты до страницы
       routes: <String, WidgetBuilder>{
         // пока корневая страница -- это RecentCalls
