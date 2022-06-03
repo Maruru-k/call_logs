@@ -1,6 +1,4 @@
-import 'package:call_logs/model/call.dart';
 import 'package:call_logs/model/user.dart';
-import 'package:call_logs/styles/colors.dart';
 import 'package:call_logs/styles/text_styles.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
