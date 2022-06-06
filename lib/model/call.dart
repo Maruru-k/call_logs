@@ -1,28 +1,28 @@
 class Call {
   String type;
   String person;
-  int calls;
+  int count;
   String additional;
   String date;
-  bool missed;
+  bool unmissed;
 
   Call({
     required this.type,
     required this.person,
-    required this.calls,
+    required this.count,
     required this.additional,
     required this.date,
-    required this.missed,
+    required this.unmissed,
   });
 
   factory Call.fromJson(Map<String, dynamic> json) {
     return Call(
       type: json["type"],
       person: json["person"],
-      calls: int.parse(json["calls"]),
+      count: json["count"],
       additional: json["additional"],
       date: json["date"],
-      missed: json["missed"],
+      unmissed: json["unmissed"],
     );
   }
 }
